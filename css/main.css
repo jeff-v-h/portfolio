@@ -23,20 +23,16 @@ img {
 	width: 100%;
 }
 
-#projects {
-	display: flex;
-}
-
 .grid {
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;
 }
-
+/*
 .row {
     width: 100%;
     margin-bottom: 20px;
-}
+} */
 
 .col-1 {
     width: 8.33%;

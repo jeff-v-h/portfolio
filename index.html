@@ -1,42 +1,115 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Jeff's Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link href="https://fonts.googleapis.com/css?family=Volkhov" rel="stylesheet">
-</head>
-<body>
-	<div class="grid">
-		<div class="row">
-			<div class="col-6">
-				<h1>Jeffrey Huang</h1>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Jeff's Portfolio</title>
+		<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center text-uppercase">
+					<h1>Jeffrey Huang</h1>
+					<h4>Front-end and Android Developer</h4>
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-4">
-				<h2>Features</h2>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
 			</div>
-			<img src="http://via.placeholder.com/1200x150">
-		</div>
-		<div class="row">
-			<div class="col-4">
-				<h2>Top Projects</h2>
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Features</h2>
+				</div>
 			</div>
-			<div class="row" id="projects">
-				<div class="col-4">
+			<div class="row">
+				<div class="col-md-12">
+					<img src="images/annapurna 3.jpg" class="img-responsive center-block" alt="Main portfolio picture" style="width: 100%">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Top Projects</h2>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-4">
+					<img src="images/coastal peru.jpg" class="img-responsive" alt="Picture of project 1" data-toggle="modal" data-target="#project1">
 					<h3>Project 1</h3>
-					<img src="http://via.placeholder.com/1200x450">
+					<p><a href="http://github.com">Link to project</a></p>
 				</div>
-				<div class="col-4">
+				<div class="col-md-4">
+					<img src="images/sand dunes wide.jpg" class="img-responsive" alt="Pic of project 2" data-toggle="modal" data-target="#project2">
 					<h3>Project 2</h3>
-					<img src="http://via.placeholder.com/1200x450">
+					<p><a href="http://github.com">Link to project</a></p>
 				</div>
-				<div class="col-4">
+				<div class="col-md-4">
+					<img src="http://via.placeholder.com/1200x300" class="img-responsive" alt="Pic of project 3" data-toggle="modal" data-target="#project3">
 					<h3>Project 3</h3>
-					<img src="http://via.placeholder.com/1200x450">
+					<p><a href="http://github.com">Link to project</a></p>
 				</div>
 			</div>
 		</div>
-	</div>
-</body>
+
+		<!-- Modal -->
+		<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+	         <div class="modal-content">
+	               <div class="modal-header">
+	                  <h4 class="modal-title" id="myModalLabel">Coastal Peru</h4>
+	               </div>
+	               <div class="modal-body">
+	                  <img class="img-responsive" src="images/coastal peru.jpg">
+	                  This was my first project in this class. I learned a lot about HTML and CSS.
+	                  The picture is a selfie on the coast of Peru.
+	               </div>
+	               <div class="modal-footer">
+	                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	               </div>
+	         </div>
+	      </div>
+	   </div>
+
+	   <!-- Modal -->
+		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+	         <div class="modal-content">
+	               <div class="modal-header">
+	                  <h4 class="modal-title" id="myModalLabel">Inca Trail</h4>
+	               </div>
+	               <div class="modal-body">
+	                  <img class="img-responsive" src="images/sand dunes wide.jpg">
+	                  Having a look at the sand dunes near Huacachina, an Oasis Town.
+	               </div>
+	               <div class="modal-footer">
+	                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	               </div>
+	         </div>
+	      </div>
+	   </div>
+
+	   <!-- Modal -->
+		<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+	         <div class="modal-content">
+	               <div class="modal-header">
+	                  <h4 class="modal-title" id="myModalLabel">Placeholder</h4>
+	               </div>
+	               <div class="modal-body">
+	                  <img class="img-responsive" src="http://via.placeholder.com/1200x300">
+	                  Demonstration of a placeholder image.
+	               </div>
+	               <div class="modal-footer">
+	                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	               </div>
+	         </div>
+	      </div>
+	   </div>
+
+	</body>
 </html>
