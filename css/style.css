@@ -13,3 +13,13 @@ body {
 	font-family: 'Patua One', cursive;
 	font-weight: 300;
 }
+
+img, embed, object, video {
+	max-width: 100%;
+}
+
+nav a, button {
+	min-width: 48px;
+	min-height: 48px;
+}
+
