@@ -4,10 +4,6 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
-/*
-* {
-	border: 1px solid red;
-} */
 
 * {
 	font-family: 'Volkhov', serif;
@@ -28,11 +24,6 @@ img {
     max-width: 1200px;
     width: 100%;
 }
-/*
-.row {
-    width: 100%;
-    margin-bottom: 20px;
-} */
 
 .col-1 {
     width: 8.33%;

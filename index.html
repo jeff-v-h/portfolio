@@ -12,49 +12,62 @@
 	</head>
 	<body>
 		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center text-uppercase">
-					<h1>Jeffrey Huang</h1>
-					<h4>Front-end and Android Developer</h4>
+			<header class="row">
+				<div class="col-md-2">
+					<img src="images/udacity_mark.png" class="img-responsive center-block" alt="Udacity logo" id="logo">
 				</div>
-			</div>
+				<div class="col-md-10 text-right text-uppercase">
+					<h1>Jeffrey Huang</h1>
+					<h3>Physiotherapist & Web Developer</h3>
+				</div>
+			</header>
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 grey">
 					<hr>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<h2>Features</h2>
+			<section class="container">
+				<div class="row" >
+					<div class="col-md-12">
+						<h2>Personal Profile</h2>
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<img src="images/annapurna 3.jpg" class="img-responsive center-block" alt="Main portfolio picture" style="width: 100%">
+				<div class="row">
+					<p class="col-md-12">I am a University of Sydney alumnus with 4 years of experience as a musculoskeletal and sports physiotherapist. I am currently continuing to refine and improve my skills in web development. Some of my current technical skills include HTML5, CSS3, JavaScript, jQuery, Python, Flask, SQLite, PostgreSQL and Git. Enjoy the image below as a small representation of myself. Some of my projects are shown below.</p>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<h2>Top Projects</h2>
+				<div class="row">
+					<figure class="col-md-12">
+						<img src="images/annapurna 3.jpg" class="img-responsive" alt="Main portfolio picture" id="main-pic">
+						<figcaption>An image of my trekking crew and I heading back from Annapurna Base Camp in the Himalayan Mountains.</figcaption>
+					</figure>
 				</div>
-			</div>
-			<div class="row text-center">
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<img src="images/coastal peru.jpg" class="img-responsive" alt="Picture of project 1" data-toggle="modal" data-target="#project1">
-					<h3>Inventory Android App</h3>
-					<p><a href="https://github.com/jeffh791/Inventory.git">Link to project</a></p>
+			</section>
+			<section class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Top Projects</h2>
+					</div>
 				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<img src="images/sand dunes wide.jpg" class="img-responsive" alt="Pic of project 2" data-toggle="modal" data-target="#project2">
-					<h3>Pagination Content Filter</h3>
-					<p><a href="https://github.com/jeffh791/Project---Pagination-Content-Filter.git">Link to project</a></p>
+				<div class="row text-center">
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<figure>
+							<img src="images/calendar.png" class="img-responsive img-project" alt="Picture of calendar" data-toggle="modal" data-target="#project1">
+						</figure>
+						<h3>Calendates</h3>
+						<p><a href="https://github.com/jeffvhuang/calendates">View project</a></p>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<img src="images/physiotherapy.jpg" class="img-responsive img-project" alt="Picture of aches for physiotherapy treatment" data-toggle="modal" data-target="#project2">
+						<h3>Physiotherapy Web App</h3>
+						<p><a href="https://github.com/jeffvhuang/physiotherapy">View project</a></p>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<img src="images/cartoon-cat.png" class="img-responsive img-project" alt="Picture of cartoon cat" data-toggle="modal" data-target="#project3">
+						<h3>Cat Clicker</h3>
+						<p><a href="https://github.com/jeffvhuang/cat-clicker">View project</a></p>
+					</div>
 				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<img src="http://via.placeholder.com/1200x900" class="img-responsive" alt="Pic of project 3" data-toggle="modal" data-target="#project3">
-					<h3>Random Quote Generator</h3>
-					<p><a href="https://github.com/jeffh791/Random-Quote-Generator.git">Link to project</a></p>
-				</div>
-			</div>
+			</section>
 		</div>
 
 		<!-- Modal -->
@@ -62,12 +75,11 @@
 			<div class="modal-dialog">
 	         <div class="modal-content">
 	               <div class="modal-header">
-	                  <h4 class="modal-title" id="myModalLabel">Coastal Peru</h4>
+	                  <h4 class="modal-title" id="myModalLabel">Calendates</h4>
 	               </div>
 	               <div class="modal-body">
-	                  <img class="img-responsive" src="images/coastal peru.jpg">
-	                  This was my first project in this class. I learned a lot about HTML and CSS.
-	                  The picture is a selfie on the coast of Peru.
+	                  <img class="img-responsive" src="images/calendar.png">
+	                  Stores data about events throughout the year. Uses many-to-many relationships in the database schema as well as API calls. Visit <a href="http://www.calendates.com/">http://www.calendates.com/</a> to see it in action.
 	               </div>
 	               <div class="modal-footer">
 	                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -81,11 +93,11 @@
 			<div class="modal-dialog">
 	         <div class="modal-content">
 	               <div class="modal-header">
-	                  <h4 class="modal-title" id="myModalLabel">Inca Trail</h4>
+	                  <h4 class="modal-title" id="myModalLabel">Physiotherapy</h4>
 	               </div>
 	               <div class="modal-body">
-	                  <img class="img-responsive" src="images/sand dunes wide.jpg">
-	                  Having a look at the sand dunes near Huacachina, an Oasis Town.
+	                  <img class="img-responsive" src="images/physiotherapy.jpg">
+	                  Web app for physiotherapy client database using Python & Flask. Visit <a href="http://jeffvh.pythonanywhere.com">http://jeffvh.pythonanywhere.com</a> to see it in action.
 	               </div>
 	               <div class="modal-footer">
 	                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -99,11 +111,11 @@
 			<div class="modal-dialog">
 	         <div class="modal-content">
 	               <div class="modal-header">
-	                  <h4 class="modal-title" id="myModalLabel">Placeholder</h4>
+	                  <h4 class="modal-title" id="myModalLabel">Cat Clicker</h4>
 	               </div>
 	               <div class="modal-body">
-	                  <img class="img-responsive" src="http://via.placeholder.com/1200x300">
-	                  Demonstration of a placeholder image.
+	                  <img class="img-responsive" src="images/cartoon-cat.png"">
+	                  An app implementing MVVM design pattern using the JS organisational library KnockoutJS. 
 	               </div>
 	               <div class="modal-footer">
 	                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
