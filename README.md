@@ -9,4 +9,4 @@ A one page portfolio with a short profile and small list of my top projects. Cli
 
 ## How the portfolio was made
 
-The project was built using widely accepted html and css practices. This was done following style guides witht he formatting created following an initial design mockup.
+The project was built using widely accepted html and css practices. This was done following style guides with the formatting created following an initial design mockup.
