@@ -7,122 +7,127 @@
 		<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
-		<script src="js/jquery-3.2.1.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<div class="container">
-			<header class="row">
+		<section class="container">
+			<div class="row">
 				<div class="col-md-2">
 					<img src="images/udacity_mark.png" class="img-responsive center-block" alt="Udacity logo" id="logo">
 				</div>
-				<div class="col-md-10 text-right text-uppercase">
+				<header class="col-md-10 text-right text-uppercase">
 					<h1>Jeffrey Huang</h1>
 					<h3>Physiotherapist & Web Developer</h3>
-				</div>
-			</header>
+				</header>
+			</div>
 			<div class="row">
 				<div class="col-md-12 grey">
 					<hr>
 				</div>
 			</div>
-			<section class="container">
-				<div class="row" >
-					<div class="col-md-12">
-						<h2>Personal Profile</h2>
-					</div>
-				</div>
-				<div class="row">
-					<p class="col-md-12">I am a University of Sydney alumnus with 4 years of experience as a musculoskeletal and sports physiotherapist. I am currently continuing to refine and improve my skills in web development. Some of my current technical skills include HTML5, CSS3, JavaScript, jQuery, Python, Flask, SQLite, PostgreSQL and Git. Enjoy the image below as a small representation of myself. Some of my projects are shown below.</p>
-				</div>
-				<div class="row">
-					<figure class="col-md-12">
-						<img src="images/annapurna.jpg" class="img-responsive" alt="Main portfolio picture" id="main-pic">
-						<figcaption>An image of my trekking crew and I heading back from Annapurna Base Camp in the Himalayan Mountains.</figcaption>
+		</section>
+		<section class="container">
+			<div class="row" >
+				<header class="col-md-12">
+					<h2>Personal Profile</h2>
+				</header>
+			</div>
+			<div class="row">
+				<p class="col-md-12">I am a University of Sydney alumnus with 4 years of experience as a musculoskeletal and sports physiotherapist. I am currently continuing to refine and improve my skills in web development. Some of my current technical skills include HTML5, CSS3, JavaScript, jQuery, Python, Flask, SQLite, PostgreSQL and Git. Enjoy the image below as a small representation of myself. Some of my projects are shown below.</p>
+			</div>
+			<div class="row">
+				<figure class="col-md-12">
+					<img src="images/annapurna.jpg" class="img-responsive" alt="Main portfolio picture" id="main-pic">
+					<figcaption>An image of my trekking crew and I heading back from Annapurna Base Camp in the Himalayan Mountains.</figcaption>
+				</figure>
+			</div>
+		</section>
+		<section class="container">
+			<div class="row">
+				<header class="col-md-12">
+					<h2>Top Projects</h2>
+				</header>
+			</div>
+			<div class="row text-center">
+				<article class="col-xs-12 col-sm-4 col-md-4">
+					<figure>
+						<img src="images/calendar.png" class="img-responsive img-project" alt="Picture of calendar" data-toggle="modal" data-target="#project1">
 					</figure>
-				</div>
-			</section>
-			<section class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h2>Top Projects</h2>
-					</div>
-				</div>
-				<div class="row text-center">
-					<div class="col-xs-12 col-sm-4 col-md-4">
-						<figure>
-							<img src="images/calendar.png" class="img-responsive img-project" alt="Picture of calendar" data-toggle="modal" data-target="#project1">
-						</figure>
-						<h3>Calendates</h3>
-						<p><a href="https://github.com/jeffvhuang/calendates">View project</a></p>
-					</div>
-					<div class="col-xs-12 col-sm-4 col-md-4">
-						<img src="images/physiotherapy.jpg" class="img-responsive img-project" alt="Picture of aches for physiotherapy treatment" data-toggle="modal" data-target="#project2">
-						<h3>Physiotherapy Web App</h3>
-						<p><a href="https://github.com/jeffvhuang/physiotherapy">View project</a></p>
-					</div>
-					<div class="col-xs-12 col-sm-4 col-md-4">
-						<img src="images/cartoon-cat.png" class="img-responsive img-project" alt="Picture of cartoon cat" data-toggle="modal" data-target="#project3">
-						<h3>Cat Clicker</h3>
-						<p><a href="https://github.com/jeffvhuang/cat-clicker">View project</a></p>
-					</div>
-				</div>
-			</section>
-		</div>
+					<h3>Calendates</h3>
+					<p><a target="_blank" href="https://github.com/jeffvhuang/calendates">View project</a></p>
+				</article>
+				<article class="col-xs-12 col-sm-4 col-md-4">
+					<img src="images/physiotherapy.jpg" class="img-responsive img-project" alt="Picture of aches for physiotherapy treatment" data-toggle="modal" data-target="#project2">
+					<h3>Physiotherapy Web App</h3>
+					<p><a target="_blank" href="https://github.com/jeffvhuang/physiotherapy">View project</a></p>
+				</article>
+				<article class="col-xs-12 col-sm-4 col-md-4">
+					<img src="images/cartoon-cat.png" class="img-responsive img-project" alt="Picture of cartoon cat" data-toggle="modal" data-target="#project3">
+					<h3>Cat Clicker</h3>
+					<p><a target="_blank" href="https://github.com/jeffvhuang/cat-clicker">View project</a></p>
+				</article>
+			</div>
+		</section>
 
 		<!-- Modal -->
 		<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="calendates-modal-title" aria-hidden="true">
 			<div class="modal-dialog">
-	         <div class="modal-content">
-	               <div class="modal-header">
-	                  <h4 class="modal-title" id="calendates-modal-title">Calendates</h4>
-	               </div>
-	               <div class="modal-body">
-	                  <img class="img-responsive" src="images/calendar.png" alt="calendar picture">
-	                  Stores data about events throughout the year. Uses many-to-many relationships in the database schema as well as API calls. Visit <a href="http://www.calendates.com/">http://www.calendates.com/</a> to see it in action.
-	               </div>
-	               <div class="modal-footer">
-	                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	               </div>
-	         </div>
-	      </div>
-	   </div>
+	         	<div class="modal-content">
+	               	<div class="modal-header">
+	                	<h4 class="modal-title" id="calendates-modal-title">Calendates</h4>
+	               	</div>
+	               	<figure class="modal-body">
+	                  	<img class="img-responsive" src="images/calendar.png" alt="calendar picture">
+	                  	<figcaption>
+	                  		Stores data about events throughout the year. Uses many-to-many relationships in the database schema as well as API calls. Visit <a href="http://www.calendates.com/">http://www.calendates.com/</a> to see it in action.
+	                  	</figcaption>
+	               	</figure>
+	               	<div class="modal-footer">
+	                  	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	               	</div>
+	         	</div>
+	      	</div>
+	   	</div>
 
-	   <!-- Modal -->
+	   	<!-- Modal -->
 		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="physio-modal-title" aria-hidden="true">
 			<div class="modal-dialog">
-	         <div class="modal-content">
-	               <div class="modal-header">
-	                  <h4 class="modal-title" id="physio-modal-title">Physiotherapy</h4>
-	               </div>
-	               <div class="modal-body">
-	                  <img class="img-responsive" src="images/physiotherapy.jpg" alt="physiotherapy picture">
-	                  Web app for physiotherapy client database using Python & Flask. Visit <a href="http://jeffvh.pythonanywhere.com">http://jeffvh.pythonanywhere.com</a> to see it in action.
-	               </div>
-	               <div class="modal-footer">
-	                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	               </div>
-	         </div>
-	      </div>
-	   </div>
+	         	<div class="modal-content">
+	               	<div class="modal-header">
+	                  	<h4 class="modal-title" id="physio-modal-title">Physiotherapy</h4>
+	               	</div>
+	               	<figure class="modal-body">
+	                  	<img class="img-responsive" src="images/physiotherapy.jpg" alt="physiotherapy picture">
+	                  	<figcaption>
+	                  		Web app for physiotherapy client database using Python & Flask. Visit <a href="http://jeffvh.pythonanywhere.com">http://jeffvh.pythonanywhere.com</a> to see it in action.
+	                  	</figcaption>
+	               	</figure>
+	               	<div class="modal-footer">
+	                  	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	               	</div>
+	         	</div>
+	      	</div>
+	   	</div>
 
 	   <!-- Modal -->
 		<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="cat-modal-title" aria-hidden="true">
 			<div class="modal-dialog">
-	         <div class="modal-content">
-	               <div class="modal-header">
+	         	<div class="modal-content">
+	               	<div class="modal-header">
 	                  <h4 class="modal-title" id="cat-modal-title">Cat Clicker</h4>
-	               </div>
-	               <div class="modal-body">
-	                  <img class="img-responsive" src="images/cartoon-cat.png" alt="cartoon cat picture">
-	                  An app implementing MVVM design pattern using the JS organisational library KnockoutJS. 
-	               </div>
-	               <div class="modal-footer">
-	                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	               </div>
-	         </div>
-	      </div>
-	   </div>
-
+	               	</div>
+	               	<figure class="modal-body">
+	                	<img class="img-responsive" src="images/cartoon-cat.png" alt="cartoon cat picture">
+	                	<figcaption>
+	                		An app implementing MVVM design pattern using the JS organisational library KnockoutJS.
+	                	</figcaption> 
+	               	</figure>
+	               	<div class="modal-footer">
+	                  	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                </div>
+	         	</div>
+	      	</div>
+	   	</div>
+	   	<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 	</body>
 </html>
