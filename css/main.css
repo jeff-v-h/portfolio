@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-* {
-	font-family: 'Volkhov', serif;
-}
-
 @media only screen and (max-width: 300px) {
     p {
         background-color: blue;
